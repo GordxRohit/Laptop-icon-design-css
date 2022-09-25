@@ -1,0 +1,89 @@
+.circle {
+  background-color: orangered;
+  border: 15px solid white;
+  border-radius: 50%;
+  box-shadow: 0 14px 0 0;
+  height: 300px;
+  width: 300px;
+  margin: 5rem auto;
+}
+
+.bezel {
+  background-color: saddlebrown;
+  border-radius: 8px;
+  height: 80px;
+  width: 120px;
+  padding: 4px;
+  margin: 105px auto 0;
+}
+
+.cam {
+  background-color: white;
+  border-radius: 50%;
+  height: 3px;
+  width: 3px;
+  margin: 0 auto 3px;
+}
+
+.screen {
+  background-color: cyan;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 64px;
+  line-height: 6.4rem;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 1px 0px 1px yellow, 0px 1px 1px yellow, 2px 1px 1px yellow;
+  width: 110px;
+  text-align: center;
+}
+
+.body {
+  background-color: white;
+  border-radius: 15px;
+  height: 13px;
+  margin: -7px 72px 0;
+  position: absolute;
+  z-index: 100;
+  width: 156px;
+}
+
+.clasp {
+  background-color: white;
+  border-radius: 0 0 7px 7px;
+  height: 5px;
+  margin: 0 auto;
+  width: 35px;
+}
+
+.power {
+  background-color: red;
+  border-radius: 4px;
+  height: 3px;
+  margin: 0 0 0 140px;
+  width: 8px;
+}
+
+.shadow {
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+  height: 10px;
+  width: 170px;
+  margin: 0px auto;
+}
+a {
+  position: absolute;
+  text-decoration: none;
+  padding: 15px 40px;
+  margin-left: 120px;
+  margin-top: 100px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 30px -6px rgba(197, 250, 5, 0.973);
+  background: rgba(197, 250, 5, 0.973);
+  color: rgb(250, 0, 0);
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
